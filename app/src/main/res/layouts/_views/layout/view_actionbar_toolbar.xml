@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ ***********************************************************************************************************************
+  ~ Copyright (c) 2018 www.yucetasarim.com - All Right Reserved.
+  ~
+  ~ Project             : mevlutbul_android
+  ~ Created on          : 12.02.2018 11:35
+  ~ Author              : Muhammet Ali YÜCE
+  ~ Author E-Mail       : yucee76@gmail.com
+  ~ Module              : C:/AndroidStudioProjects/Mobile/mevlutbul_android/app/src/main/res/layouts/_views/layout/view_actionbar_toolbar.xml
+  ~ File Name           : view_actionbar_toolbar.xml
+  ~ Last Modified User  : tuzlu
+  ~ Last Modified Date  : 12.02.2018 11:07
+  ~ ***********************************************************************************************************************
+  -->
+
+<android.support.design.widget.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/actionToolBarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.AppBarOverlay"
+    android:focusableInTouchMode="true"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/MainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:theme="@style/ToolbarStyle"
+        >
+        <TextView
+            android:id="@+id/TxtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/SanFranciscoDisplayBlack"
+            android:textSize="@dimen/text_cok_buyuk"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/app_name"
+            />
+    </android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>

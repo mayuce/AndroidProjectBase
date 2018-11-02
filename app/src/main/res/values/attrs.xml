@@ -1,0 +1,35 @@
+<!--
+  ~ /**
+  ~  * Created by Muhammed Ali YUCE (@mayuce on github) on 11/2/18 10:01 PM
+  ~  * Copyright (c) 2018 . All rights reserved.
+  ~  * Last modified 10/21/18 12:28 AM
+  ~  */
+  -->
+
+<resources>
+
+    <declare-styleable name="ProjectViewPager">
+        <attr name="swipeable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="JazzyViewPager">
+        <attr name="style">
+            <enum name="standard" value="0" />
+            <enum name="tablet" value="1" />
+            <enum name="cubein" value="2" />
+            <enum name="cubeout" value="3" />
+            <enum name="flipvertical" value="4" />
+            <enum name="fliphorizontal" value="5" />
+            <enum name="stack" value="6" />
+            <enum name="zoomin" value="7" />
+            <enum name="zoomout" value="8" />
+            <enum name="rotateup" value="9" />
+            <enum name="rotatedown" value="10" />
+            <enum name="accordion" value="11" />
+        </attr>
+        <attr name="fadeEnabledPager" format="boolean" />
+        <attr name="outlineEnabledPager" format="boolean" />
+        <attr name="outlineColorPager" format="color|reference" />
+    </declare-styleable>
+
+</resources>

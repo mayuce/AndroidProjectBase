@@ -1,0 +1,38 @@
+<!--
+  ~ /**
+  ~  * Created by Muhammed Ali YUCE (@mayuce on github) on 11/2/18 10:01 PM
+  ~  * Copyright (c) 2018 . All rights reserved.
+  ~  * Last modified 11/2/18 9:50 PM
+  ~  */
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.androidprojectbase">
+
+    <application
+        android:name=".YourProjectNameApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon"
+        tools:targetApi="m">
+        <activity android:name=".ui.splash.SplashActivity"
+            android:theme="@style/AppTheme.FullScreen"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.main.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            />
+    </application>
+</manifest>

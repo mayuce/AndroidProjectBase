@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ ***********************************************************************************************************************
+  ~ Copyright (c) 2018 www.yucetasarim.com - All Right Reserved.
+  ~
+  ~ Project             : mevlutbul_android
+  ~ Created on          : 12.02.2018 11:35
+  ~ Author              : Muhammet Ali YÜCE
+  ~ Author E-Mail       : yucee76@gmail.com
+  ~ Module              : C:/AndroidStudioProjects/Mobile/mevlutbul_android/app/src/main/res/layouts/_views/layout/view_custom_image_tab.xml
+  ~ File Name           : view_custom_image_tab.xml
+  ~ Last Modified User  : tuzlu
+  ~ Last Modified Date  : 31.01.2018 11:26
+  ~ ***********************************************************************************************************************
+  -->
+
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:padding="12dp"
+    android:contentDescription="@string/empty"
+    android:gravity="center" />
+

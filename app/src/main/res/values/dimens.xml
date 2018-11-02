@@ -1,0 +1,31 @@
+<!--
+  ~ ***********************************************************************************************************************
+  ~ Copyright (c) 2018 www.yucetasarim.com - All Right Reserved.
+  ~
+  ~ Project             : mevlutbul_android
+  ~ Created on          : 12.02.2018 11:35
+  ~ Author              : Muhammet Ali YÜCE
+  ~ Author E-Mail       : yucee76@gmail.com
+  ~ Module              : C:/AndroidStudioProjects/Mobile/mevlutbul_android/app/src/main/res/values/dimens.xml
+  ~ File Name           : dimens.xml
+  ~ Last Modified User  : tuzlu
+  ~ Last Modified Date  : 31.01.2018 11:26
+  ~ ***********************************************************************************************************************
+  -->
+
+<resources>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_cok_kucuk">10sp</dimen>
+    <dimen name="text_kucuk">12sp</dimen>
+    <dimen name="text_orta">14sp</dimen>
+    <dimen name="text_buyuk">16sp</dimen>
+    <dimen name="text_cok_buyuk">18sp</dimen>
+    <dimen name="text_title">25sp</dimen>
+    <dimen name="text_description">20sp</dimen>
+
+</resources>

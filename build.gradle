@@ -1,0 +1,39 @@
+/*
+ * *
+ *  * Created by Muhammed Ali YUCE (@mayuce on github) on 11/2/18 10:01 PM
+ *  * Copyright (c) 2018 . All rights reserved.
+ *  * Last modified 11/2/18 9:47 PM
+ *  
+ */
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath 'com.google.gms:google-services:4.0.1'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        maven {
+            url "https://maven.google.com"
+        }
+        maven { url 'https://dl.bintray.com/drummer-aidan/maven' }
+        maven { url 'https://maven.fabric.io/public' }
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

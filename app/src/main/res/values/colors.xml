@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Muhammed Ali YUCE (@mayuce on github) on 11/2/18 10:01 PM
+  ~  * Copyright (c) 2018 . All rights reserved.
+  ~  * Last modified 11/2/18 9:50 PM
+  ~  */
+  -->
+
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="window_background">#ffffff</color>
+    <color name="FancyGreen">#73a646</color>
+    <color name="FancyGreenFocus">#598136</color>
+    <color name="FancyRed">#fe7214</color>
+    <color name="FancyRedFocus">#a14f17</color>
+    <color name="holo_blue">#FF33E5B5</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="gold">#CDAD00</color>
+    <color name="headerGray">#555555</color>
+
+
+    <color name="tab_background">#43aad1</color>
+    <color name="tab_selected_background">#09516d</color>
+    <color name="tab_indicator">#09516d</color>
+    <color name="tab_divider">#09516d</color>
+
+    <color name="tab_background_main">#ffffff</color>
+    <color name="tab_selected_background_main">#ffffff</color>
+    <color name="tab_indicator_main">#09516d</color>
+    <color name="tab_divider_main">#09516d</color>
+    <color name="orange">#f5600f</color>
+    <color name="orange_dark">#FF8C00</color>
+    <color name="yellow">#FFE24C</color>
+    <color name="good_blue">#26afe4</color>
+    <color name="good_blue_dark">#239dcc</color>
+    <color name="good_blue_transparent">#8826afe4</color>
+    <color name="cornflower_blue">#6274e2</color>
+    <color name="cornflower_blue_dark">#303F9F</color>
+    <color name="cornflower_blue_darkest">#2d3a93</color>
+    <color name="gray">#ebebeb</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="gray_transparent">#a6efefef</color>
+    <color name="gray_dark">#858585</color>
+    <color name="gray_dark_transparent">#ae858585</color>
+    <color name="gray_darkest">#ae282828</color>
+    <color name="black">#000000</color>
+    <color name="black_10">#19000000</color>
+    <color name="gray_rounded">#aaaaaa</color>
+    <color name="gray_rounded_transparent">#77aaaaaa</color>
+    <color name="gray_dark_ios">#555555</color>
+    <color name="gray_light_ios">#8e9598</color>
+    <color name="ivory">#f8efe6</color>
+    <color name="ivory_dark">#f7e8d9</color>
+    <color name="green">#38be55</color>
+    <color name="messageGreen">#80ff80</color>
+    <color name="messageGreenDark">#00ff00</color>
+    <color name="messageGreenDarkTransparant">#5500ff00</color>
+    <color name="messageBlue">#80b3ff</color>
+    <color name="messageBlueDark">#0066ff</color>
+    <color name="messageBlueDarkTransparant">#550066ff</color>
+    <color name="green_dark">#2da346</color>
+    <color name="red">#e94f4f</color>
+    <color name="brown">#4e342e</color>
+    <color name="gray_arama">#ccffffff</color>
+    <color name="orange_light">#ffad33</color>
+    <color name="blue_dark">#660b709f</color>
+    <color name="blackTransparent">#66000000</color>
+    <color name="blackTransparentDark">#99000000</color>
+    <color name="whiteTransparent">#66ffffff</color>
+    <color name="twitter_color">#28aae1</color>
+    <color name="whatsapp_color">#2ab200</color>
+    <color name="text">#8e9598</color>
+
+    <color name="background_gray">#e8e8e8</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="gray_more_light">#e5e5e5</color>
+    <color name="purple_lottie">#926fdb</color>
+
+
+    <color name="purple">#7b5dba</color>
+    <color name="purple_dark">#634b96</color>
+    <color name="purple_light">#926fdb</color>
+
+</resources>

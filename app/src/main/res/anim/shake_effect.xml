@@ -1,0 +1,33 @@
+<!--
+  ~ ***********************************************************************************************************************
+  ~ Copyright (c) 2018 www.yucetasarim.com - All Right Reserved.
+  ~
+  ~ Project             : parashout_android
+  ~ Created on          : 12.02.2018 11:35
+  ~ Author              : Muhammet Ali YÜCE
+  ~ Author E-Mail       : yucee76@gmail.com
+  ~ Module              : C:/AndroidStudioProjects/Mobile/parashout_android/app/src/main/res/anim/shake_effect.xml
+  ~ File Name           : shake_effect.xml
+  ~ Last Modified User  : tuzlu
+  ~ Last Modified Date  : 31.01.2018 11:26
+  ~ ***********************************************************************************************************************
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate
+        android:duration="70"
+        android:fromDegrees="-5"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="2"
+        android:repeatMode="reverse"
+        android:toDegrees="5" />
+    <translate
+        android:duration="70"
+        android:fromXDelta="-10"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:repeatCount="2"
+        android:repeatMode="reverse"
+        android:toXDelta="10" />
+</set>
